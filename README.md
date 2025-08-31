@@ -3,31 +3,27 @@
 
 </p>
 
-<h1>Microsoft Azure Honeypot - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>Microsoft Azure Honeypot - Introduction</h1>
+In this project, I will develop a basic home soc utilizing Microsoft Azure. The project involves creating a virtual machine (VM), exposing it to the internet as a honeypot, and forwarding logs to a centralized repository. Subsequently, we will integrate Microsoft Sentinel to analyze real-world attack data.
+ .<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Microsoft Sentinel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10 pro</b> 
 
-<h2>List of Prerequisites</h2>
+<h2>What we will cover in this project</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Creating an Azure subscription and setting up a VM
+- Configuring Log Analytics Workspace
+- Forwarding logs and integrating with Sentinel
+- Querying failed login attempts and visualizing attack sources
+- Building an attack map to track real-time hacker activity
 
 <h2>Installation Steps</h2>
 
