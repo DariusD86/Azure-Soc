@@ -43,11 +43,19 @@ Finally, I executed a network diagnostic by pinging the Virtual Machine to verif
 </p>
 <br />
 
+<h2><h2>Configuring Log Analytics Workspace</h2></h2>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<<img width="730" height="395" alt="image" src="https://github.com/user-attachments/assets/d249c619-ad3a-43cc-b360-a5f77957ff05" />
+" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The initial step involves creating a Log Analytics Workspace, which will serve as our centralized log repository. I will assign an appropriate name to the workspace and ensure it is placed within the same resource group and geographic region for optimal integration and management.
+
+Subsequently, I will proceed to deploy our Microsoft Sentinel instance, functioning as our Security Information and Event Management (SIEM) system. Within the Microsoft Sentinel environment, I will select the previously created Log Analytics Workspace to establish a seamless linkage between the two services.
+
+With this configuration in place, we can now efficiently collect, manage, and analyze logs within our log repository through the SIEM platform, enabling robust security monitoring and threat detection capabilities.
 </p>
 <br />
 
